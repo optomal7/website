@@ -1,9 +1,9 @@
 # website
-my website on github
+The source code for my website.
 
-##User Stories
+## User Stories
 ---
-###As a user I can:
+### As a user I can:
 
 - [ ] Easily find social media.
 - [ ] Find visuals asthetically pleasing
