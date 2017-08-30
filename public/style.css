@@ -1,0 +1,17 @@
+@font-face{
+  font-family: 'powertxt';
+  src: url('fonts/PowerRangers.ttf');
+}
+
+.headshot {
+  padding: 10px 40px;
+  background: #dddddd;
+  border-radius: 50%;
+}
+
+.power {
+  font-family: powertxt;
+  text-align: center;
+  color: yellow;
+  background-color: red;
+}
