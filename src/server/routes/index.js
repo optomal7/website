@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 router.get('/projects', (req, res) => {
 
   client.get('users/optomal7/events/public')
-    .then(function(result) {
+    .then(function(result){
       for (var i = 0; i < result.body.length; i++) {
         if (result.body[i].type === 'PushEvent') {
           return {repoName: result.body[i].repo.name,
