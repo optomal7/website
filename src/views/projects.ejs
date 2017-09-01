@@ -1,5 +1,5 @@
 <%- include header.ejs %>
-<div class="alert alert-info" role="alert">
+<div class="alert alert-info" style="margin-top:25px;" role="alert">
   <strong>My most recent public commit:</strong> Occured at <%= mostRecent.time %> in my <%= mostRecent.repoName %> repo.
   <p>You can see it in full at <a href="<%= mostRecent.url %>">right here</a>. The commit message was: <%= mostRecent.message %></p>
 </div>

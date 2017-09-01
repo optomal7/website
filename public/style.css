@@ -2,7 +2,9 @@
   font-family: 'powertxt';
   src: url('fonts/PowerRangers.ttf');
 }
-
+nav {
+  margin-bottom: 40px;
+}
 .headshot {
   padding: 10px 40px;
   border-radius: 50%;
