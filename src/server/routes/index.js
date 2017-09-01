@@ -32,4 +32,12 @@ router.get('/social', (req, res) => {
   res.render('social')
 })
 
+router.get('/faq', (req, res) => {
+  res.render('faq')
+})
+
+router.use('*', (req, res) => {
+  res.redirect('/')
+})
+
 module.exports = router
