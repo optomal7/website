@@ -28,4 +28,8 @@ router.get('/contact', (req, res) => {
   res.render('contact')
 })
 
+router.get('/social', (req, res) => {
+  res.render('social')
+})
+
 module.exports = router
