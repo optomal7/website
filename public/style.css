@@ -9,6 +9,9 @@ nav {
   padding: 10px 40px;
   border-radius: 50%;
   display: block;
+  width:auto;
+  max-width:100%;
+  height:auto;
   margin: auto;
 }
 
