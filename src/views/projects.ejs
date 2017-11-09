@@ -1,0 +1,19 @@
+<%- include header.ejs %>
+<div class="alert alert-info" style="margin-top:25px;" role="alert">
+  <strong>My most recent public commit:</strong> Occured at <%= mostRecent.time %> in my <%= mostRecent.repoName %> repo.
+  <p>You can see it in full at <a href="<%= mostRecent.url %>">right here</a>. The commit message was: <%= mostRecent.message %></p>
+</div>
+
+<%- include project2.ejs %>
+
+<%- include project3.ejs %>
+
+<div style="margin-top:25px;" class="alert alert-info" role="alert">
+  In case you missed it the first time.
+</div>
+
+<%- include topproject.ejs %>
+
+<%- include website.ejs %>
+
+<%- include footer.ejs %>

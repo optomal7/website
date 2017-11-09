@@ -1,0 +1,35 @@
+{
+  "name": "website",
+  "version": "1.9.0",
+  "description": "User driven overhaul of my original personal website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha",
+    "start-dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optomal7/website.git"
+  },
+  "keywords": [
+    "portfolio",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "DangerMaus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/optomal7/website/issues"
+  },
+  "homepage": "https://github.com/optomal7/website#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "request-json": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

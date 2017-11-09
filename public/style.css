@@ -1,0 +1,69 @@
+@font-face{
+  font-family: 'powertxt';
+  src: url('fonts/PowerRangers.ttf');
+}
+nav {
+  margin-bottom: 40px;
+}
+.headshot {
+  padding: 10px 40px;
+  border-radius: 50%;
+  display: block;
+  width:auto;
+  max-width:100%;
+  height:auto;
+  margin: auto;
+}
+
+.project {
+  display: block;
+  margin: auto;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.power {
+  font-family: powertxt;
+  text-align: center;
+  color: yellow;
+  background-color: red;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-youtube {
+  padding-right: 45px;
+  background: #bb0000;
+  color: white;
+}
+
+.fa-linkedin {
+  padding-right: 45px;
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  padding-right: 45px;
+  background: #55ACEE;
+  color: white;
+}
+
+.oops {
+  padding-right: 45px;
+  background: grey;
+  color: black;
+}
