@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "mocha"
+    "test": "mocha",
+    "start-dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
     "ejs": "^2.5.7",
     "express": "^4.15.4",
     "request-json": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
