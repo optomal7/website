@@ -8,6 +8,7 @@ router.get('/', (req, res) => {
 
 router.get('/projects', (req, res) => {
 
+	// TODO: Add logic for when client returns empty
   client.get('users/optomal7/events/public')
     .then(function(result){
       for (var i = 0; i < result.body.length; i++) {
